@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://abhilekha-admin.onrender.com',
+  baseURL: 'https://abhilekha-admin.onrender.com/api/',
 });
 
 // Add a request interceptor to include the JWT token
