@@ -15,10 +15,6 @@ import {
 } from 'lucide-react';
 import { fetchClients, createClient, deleteClient, updateClient } from '../api';
 
-
-
-
-
 const Clients = () => {
   const [clients, setClients] = useState([]);
   const [loading, setLoading] = useState(true);

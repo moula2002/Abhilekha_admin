@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Briefcase, MapPin, Clock, DollarSign, ArrowUpRight, Search, Loader2, X, GraduationCap, Award, MapPinned, FileText, ChevronRight, Trash2, Edit } from 'lucide-react';
 import { fetchJobs, createJob, deleteJob, updateJob } from '../api';
-
-
-
-
-
-
 const Jobs = () => {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
